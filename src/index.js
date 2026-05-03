@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
  form.addEventListener("submit", (event) => {
     event.preventDefault()
-    const taskDescription = document.getElementById["new-task-description"].value;
+    const taskDescription = document.getElementById("new-task-description").value;
     buildToDo(taskDescription);
     })
 
